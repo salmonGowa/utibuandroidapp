@@ -72,7 +72,7 @@ import {
                 color: "#041E42",
               }}
             >
-              Register to your Account
+              Register Account
             </Text>
           </View>
   

@@ -179,7 +179,7 @@ import {
             Total : ₹{route.params.price}
           </Text>
           <Text style={{ color: "#00CED1" }}>
-            FREE delivery Tomorrow by 3 PM.Order within 10hrs 30 mins
+            FREE delivery Tomorrow by 3 PM.
           </Text>
   
           <View
@@ -193,7 +193,7 @@ import {
             <Ionicons name="location" size={24} color="black" />
   
             <Text style={{ fontSize: 15, fontWeight: "500" }}>
-              Deliver To Sujan - Bangalore 560019
+              Deliver To Binary - BuruBuru 560019
             </Text>
           </View>
         </View>

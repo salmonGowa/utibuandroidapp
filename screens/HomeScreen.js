@@ -591,7 +591,7 @@ import {
                     numberOfLines={1}
                     style={{ width: 130, fontSize: 13, textAlign: "center" }}
                   >
-                    India, Bangalore
+                    Nairobi, Kenya
                   </Text>
                 </Pressable>
               ))}
@@ -630,7 +630,7 @@ import {
               >
                 <Entypo name="location-pin" size={22} color="#0066b2" />
                 <Text style={{ color: "#0066b2", fontWeight: "400" }}>
-                  Enter an Indian pincode
+                  Pickup Myself
                 </Text>
               </View>
   
@@ -649,7 +649,7 @@ import {
                 <AntDesign name="earth" size={22} color="#0066b2" />
   
                 <Text style={{ color: "#0066b2", fontWeight: "400" }}>
-                  Deliver outside India
+                  Deliver outside Nairobi
                 </Text>
               </View>
             </View>

@@ -60,7 +60,7 @@ import {
           <Image
             style={{ width: 150, height: 100 }}
             source={{
-              uri: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F1%2F1b%2FLife-Pharmacy-Logo.png&tbnid=1n4wOf5Mph6_FM&vet=12ahUKEwjs0Y2fpZeFAxV-jicCHee9DFMQMygjegUIARDDAQ..i&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALife-Pharmacy-Logo.png&docid=f5CUith6sniAGM&w=377&h=175&q=pharmacy%20logo%20png&ved=2ahUKEwjs0Y2fpZeFAxV-jicCHee9DFMQMygjegUIARDDAQ",
+              uri: "",
             }}
           />
         </View>
