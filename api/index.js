@@ -29,7 +29,7 @@ mongoose
   .catch((err) => {
     console.log("Error connecting to MongoDb", err);
   });
-/*
+
 const User = require("./models/user");
 const Order = require("./models/order");
 
@@ -265,4 +265,3 @@ app.get("/orders/:userId",async(req,res) => {
     res.status(500).json({ message: "Error"});
   }
 })
-*/
