@@ -200,15 +200,15 @@ import {
     const navigation = useNavigation();
     const [open, setOpen] = useState(false);
     const [addresses, setAddresses] = useState([]);
-    const [category, setCategory] = useState("jewelery");
+    const [category, setCategory] = useState("lamivudine");
     const { userId, setUserId } = useContext(UserType);
     const [selectedAddress,setSelectedAdress] = useState("");
     console.log(selectedAddress)
     const [items, setItems] = useState([
-      { label: "Men's clothing", value: "men's clothing" },
-      { label: "jewelery", value: "jewelery" },
-      { label: "electronics", value: "electronics" },
-      { label: "women's clothing", value: "women's clothing" },
+      { label: "enzyme inhibitor", value: "enzyme inhibitor" },
+      { label: "lamivudine", value: "lamivudine" },
+      { label: "abacavir", value: "abacavir" },
+      { label: "entry inhabitor", value: "entry inhabitor" },
     ]);
     useEffect(() => {
       const fetchData = async () => {
@@ -292,7 +292,7 @@ import {
                   size={22}
                   color="black"
                 />
-                <TextInput placeholder="Search Amazon.in" />
+                <TextInput placeholder="Search UtibuPharm" />
               </Pressable>
   
               <Feather name="mic" size={24} color="black" />
@@ -364,7 +364,7 @@ import {
             />
   
             <Text style={{ padding: 10, fontSize: 18, fontWeight: "bold" }}>
-              Trending Deals of the week
+              Restocked This Week
             </Text>
   
             <View
@@ -412,7 +412,7 @@ import {
             />
   
             <Text style={{ padding: 10, fontSize: 18, fontWeight: "bold" }}>
-              Today's Deals
+              Muscle Relaxers
             </Text>
   
             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
