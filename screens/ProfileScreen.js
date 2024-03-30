@@ -76,7 +76,7 @@ import {
       const fetchOrders = async () => {
         try {
           const response = await axios.get(
-            `http://localhost:8000/orders/${userId}`
+            `http://192.168.100.122:8081/orders/${userId}`
           );
           const orders = response.data.orders;
           setOrders(orders);

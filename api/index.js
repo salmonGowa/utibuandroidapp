@@ -41,7 +41,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
     service: "gmail",
     auth: {
       user: "binaryshade47@gmail.com",
-      pass: "shade47",
+      pass: "motionlessin_WHITE",
     },
   });
 
