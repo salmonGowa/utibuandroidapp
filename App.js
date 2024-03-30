@@ -9,7 +9,7 @@ import { UserContext } from "./UserContext";
 export default function App() {
   return (
     <>
-      <Provider store={store}>
+     <Provider store={store}>
         <UserContext>
           <StackNavigator />
           <ModalPortal />
