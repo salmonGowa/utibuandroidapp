@@ -44,7 +44,7 @@ import {
             postalCode
         }
   
-        axios.post("http://localhost:8000/addresses",{userId,address}).then((response) => {
+        axios.post("http://192.168.100.122:8081/addresses",{userId,address}).then((response) => {
             Alert.alert("Success","Addresses added successfully");
             setName("");
             setMobileNo("");

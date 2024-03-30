@@ -30,7 +30,7 @@ const ConfirmationScreen = () => {
   const fetchAddresses = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:8000/addresses/${userId}`
+        `http://192.168.100.122:8081/addresses/${userId}`
       );
       const { addresses } = response.data;
 

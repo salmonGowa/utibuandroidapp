@@ -25,7 +25,7 @@ import {
     const fetchAddresses = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/addresses/${userId}`
+          `http://192.168.100.122:8081/addresses/${userId}`
         );
         const { addresses } = response.data;
   
@@ -69,7 +69,7 @@ import {
               size={22}
               color="black"
             />
-            <TextInput placeholder="Search Amazon.in" />
+            <TextInput placeholder="Search UtibuPharm" />
           </Pressable>
   
           <Feather name="mic" size={24} color="black" />

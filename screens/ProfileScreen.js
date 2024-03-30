@@ -53,7 +53,7 @@ import {
       const fetchUserProfile = async () => {
         try {
           const response = await axios.get(
-            `http://localhost:8000/profile/${userId}`
+            `http://192.168.100.122:8081/profile/${userId}`
           );
           const { user } = response.data;
           setUser(user);
