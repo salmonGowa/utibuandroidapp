@@ -1,4 +1,5 @@
 //mongodb+srv://binaryshade47:shade47@cluster0.2gpynzi.mongodb.net/
+//mongodb+srv://binaryshade47:<password>@cluster0.2gpynzi.mongodb.net/
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");

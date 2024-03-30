@@ -72,7 +72,7 @@ import {
   
           <TextInput
             placeholderTextColor={"black"}
-            placeholder="India"
+            placeholder="Kenya"
             style={{
               padding: 10,
               borderColor: "#D0D0D0",
