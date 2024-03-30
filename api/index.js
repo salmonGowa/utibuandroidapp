@@ -46,7 +46,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
 
   // Compose the email message
   const mailOptions = {
-    from: "amazon.com",
+    from: "UtibuPharmacy.com",
     to: email,
     subject: "Email Verification",
     text: `Please click the following link to verify your email: http://localhost:8000/verify/${verificationToken}`,
@@ -55,7 +55,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
   // Send the email
   try {
     await transporter.sendMail(mailOptions);
-    console.log("Verification email sent successfully");
+    console.log("Email verification sent successfully");
   } catch (error) {
     console.error("Error sending verification email:", error);
   }

@@ -53,11 +53,21 @@ import {
       <SafeAreaView
         style={{ flex: 1, backgroundColor: "white", alignItems: "center",marginTop:50  }}
       >
-        <View>
+        <View style={{alignItems:"center"}}>
+        <Text
+              style={{
+                fontSize: 20,
+                fontWeight: "bold",
+                marginTop: 15,
+                color: "#041E42",
+              }}
+            >
+              UTIBUPHARM
+            </Text>
           <Image
             style={{ width: 150, height: 100 }}
             source={{
-              uri: "https://assets.stickpng.com/thumbs/6160562276000b00045a7d97.png",
+              uri: "",
             }}
           />
         </View>
