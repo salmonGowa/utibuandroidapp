@@ -84,7 +84,7 @@ import {
   
           <View style={{ marginVertical: 10 }}>
             <Text style={{ fontSize: 15, fontWeight: "bold" }}>
-              Full name (First and last name)
+              Full name
             </Text>
   
             <TextInput
