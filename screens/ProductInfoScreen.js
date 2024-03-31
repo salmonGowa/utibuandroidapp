@@ -152,7 +152,7 @@ import {
           </Text>
   
           <Text style={{ fontSize: 18, fontWeight: "600", marginTop: 6 }}>
-            ₹{route?.params?.price}
+            {route?.params?.price}
           </Text>
         </View>
   
