@@ -63,7 +63,7 @@ import {
               size={22}
               color="black"
             />
-            <TextInput placeholder="Search Amazon.in" />
+            <TextInput placeholder="Search utibupharm" />
           </Pressable>
   
           <Feather name="mic" size={24} color="black" />
@@ -176,10 +176,10 @@ import {
   
         <View style={{ padding: 10 }}>
           <Text style={{ fontSize: 15, fontWeight: "bold", marginVertical: 5 }}>
-            Total : ₹{route.params.price}
+            Total : {route.params.price}
           </Text>
           <Text style={{ color: "#00CED1" }}>
-            FREE delivery Tomorrow by 3 PM.
+            FREE delivery
           </Text>
   
           <View

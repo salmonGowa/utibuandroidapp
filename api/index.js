@@ -1,4 +1,3 @@
-//mongodb+srv://binaryshade47:shade47@cluster0.2gpynzi.mongodb.net/
 //mongodb+srv://binaryshade47:<password>@cluster0.2gpynzi.mongodb.net/
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -50,7 +49,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
     from: "UtibuPharmacy.com",
     to: email,
     subject: "Email Verification",
-    text: `Please click the following link to verify your email: http://192.168.100.122:8081/verify/${verificationToken}`,
+    text: `Please click the following link to verify your email: http://192.168.100.124:8081/verify/${verificationToken}`,
   };
 
   // Send the email

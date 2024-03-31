@@ -40,7 +40,7 @@ import {
       };
   
       axios
-        .post("http://192.168.100.122:8081/login", user)
+        .post("http://192.168.100.124:8081/login", user)
         .then((response) => {
           console.log(response);
           const token = response.data.token;
@@ -60,7 +60,7 @@ import {
           <Image
             style={{ width: 150, height: 100 }}
             source={{
-              uri: "",
+              uri:"https://media.istockphoto.com/id/1449832348/vector/rx-pharmaceutical-capsule-medicine-logo-vector-drug-choice-drugstore-vector-logo-template.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=QAJrcQOVGoIBfJJfU53-OsByipuhDiZpmjCMGykheEw=" ,
             }}
           />
         </View>

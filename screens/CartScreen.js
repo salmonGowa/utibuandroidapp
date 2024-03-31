@@ -63,7 +63,7 @@ import {
               size={22}
               color="black"
             />
-            <TextInput placeholder="Search Amazon.in" />
+            <TextInput placeholder="Search utibupharm" />
           </Pressable>
   
           <Feather name="mic" size={24} color="black" />

@@ -30,7 +30,7 @@ const ConfirmationScreen = () => {
   const fetchAddresses = async () => {
     try {
       const response = await axios.get(
-        `http://192.168.100.122:8081/addresses/${userId}`
+        `http://192.168.100.124:8081/addresses/${userId}`
       );
       const { addresses } = response.data;
 
@@ -54,7 +54,7 @@ const ConfirmationScreen = () => {
       };
 
       const response = await axios.post(
-        "http://localhost:8000/orders",
+        "http://192.168.100.124:8081/orders",
         orderData
       );
       if (response.status === 200) {
@@ -73,7 +73,7 @@ const ConfirmationScreen = () => {
       const options = {
         description: "Adding To Wallet",
         currency: "INR",
-        name: "Amazon",
+        name: "UtibuPharm",
         key: "rzp_test_E3GWYimxN7YMk8",
         amount: total * 100,
         prefill: {
@@ -97,7 +97,7 @@ const ConfirmationScreen = () => {
       };
 
       const response = await axios.post(
-        "http://localhost:8000/orders",
+        "http://192.168.100.124:8081/orders",
         orderData
       );
       if (response.status === 200) {
@@ -222,7 +222,7 @@ const ConfirmationScreen = () => {
                   </Text>
 
                   <Text style={{ fontSize: 15, color: "#181818" }}>
-                    India, Bangalore
+                    Nairobi, Kenya
                   </Text>
 
                   <Text style={{ fontSize: 15, color: "#181818" }}>
@@ -339,7 +339,7 @@ const ConfirmationScreen = () => {
               <Text style={{ color: "green", fontWeight: "500" }}>
                 Tomorrow by 10pm
               </Text>{" "}
-              - FREE delivery with your Prime membership
+                FREE delivery
             </Text>
           </View>
 
@@ -426,7 +426,7 @@ const ConfirmationScreen = () => {
               />
             )}
 
-            <Text>UPI / Credit or debit card</Text>
+            <Text>Lipa Na Mpesa</Text>
           </View>
           <Pressable
             onPress={() => setCurrentStep(3)}
@@ -463,7 +463,7 @@ const ConfirmationScreen = () => {
           >
             <View>
               <Text style={{ fontSize: 17, fontWeight: "bold" }}>
-                Save 5% and never run out
+                Save 5% 
               </Text>
               <Text style={{ fontSize: 15, color: "gray", marginTop: 5 }}>
                 Turn on auto deliveries
