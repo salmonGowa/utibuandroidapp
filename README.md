@@ -1,4 +1,4 @@
-create a virtual android devive or install the expo go on your physical device to run the app
+create a virtual android device or install the expo go on your physical device to run the app
 
 
 run npx yarn start
