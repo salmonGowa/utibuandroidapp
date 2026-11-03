@@ -14,7 +14,7 @@
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/native-stack": "^6.9.26",
     "@reduxjs/toolkit": "^2.2.2",
-    "axios": "^1.7.4",
+    "axios": "^1.20.0",
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
     "jwt-decode": "^4.0.0",
@@ -30,7 +30,7 @@
     "react-redux": "^9.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^8.1.0"
   },
   "private": true
 }
